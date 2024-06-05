@@ -1,0 +1,139 @@
+/* Basic properties for the HTML document*/
+body {
+    background-color: #a9a8a7;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-decoration: underline black;
+}
+
+/* Css properties for Header element */
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+    height: 28%;
+}
+
+/* Css properties for Nav element */
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: lightslategrey;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+nav li {
+    display: inline-block;
+    padding: 7px;
+    text-decoration: underline solid white;
+}
+
+nav li:hover {
+    background-color: darkslateblue;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Css properties for Main element */
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    margin: 2%;
+}
+
+article:hover {
+    box-shadow: 5px 0 25px black;
+    transition: 0.3s;
+}
+
+.one {
+    background-color: darksalmon;
+    padding: 25px;
+    border-radius: 25px;
+    background-image: url("https://s39077.pcdn.co/wp-content/uploads/2022/01/JGDW22_main_page_visual_min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.one > p {
+    margin-right: 39%;
+}
+
+.two {
+    background-color: bisque;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 2%;
+}
+
+.two > img {
+    max-width: 100%;
+}
+
+.two > a {
+    color: lightcoral;
+    text-decoration: underline solid lightcoral;
+    padding: 2px;
+}
+
+.two > a:hover {
+    background-color: lightcoral;
+    color: whitesmoke;
+    border-radius: 25px;
+    padding: 5px;
+    text-decoration: underline solid whitesmoke;
+}
+
+.timings {
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Css properties for Footer element */
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+    padding: 2px;
+    margin-top: 2%;
+}
+
+#footer-logo {
+    width: 43%;
+    height: 43%;
+    border: solid black;
+    padding: 15px;
+    margin: 0.7%;
+}
+
+#footer-text {
+    font-weight: bold;
+    text-align: right;
+    border-top: solid darkolivegreen;
+}
